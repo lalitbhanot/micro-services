@@ -7,8 +7,15 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <artifactId>fraud</artifactId>
-    <name>Archetype - fraud</name>
-    <url>http://maven.apache.org</url>
+    <name>fraud</name>
+    <packaging>jar</packaging>
+    <build>
+        <plugins>
+            <plugin><groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -47,16 +54,5 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>16</source>
-                    <target>16</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+
 </project>
