@@ -9,16 +9,14 @@
 
     <artifactId>apigw</artifactId>
     <packaging>jar</packaging>
-
     <name>apigw</name>
-    <url>http://maven.apache.org</url>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-            <maven.complier.source>17</maven.complier.source>
-            <maven.complier.target>17</maven.complier.target>
-    </properties>
-
+<build>
+    <plugins>
+        <plugin><groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+        </plugin>
+    </plugins>
+</build>
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
