@@ -1,6 +1,6 @@
 package com.lalit.notification.rabbitmq;
 
-import com.lalit.client.notification.NotificationRequest;
+import com.lalit.clients.notification.NotificationRequest;
 import com.lalit.notification.NotificationService;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

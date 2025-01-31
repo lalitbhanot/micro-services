@@ -1,5 +1,5 @@
 package com.lalit.notification;
-import com.lalit.client.notification.NotificationRequest;
+import com.lalit.clients.notification.NotificationRequest;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;

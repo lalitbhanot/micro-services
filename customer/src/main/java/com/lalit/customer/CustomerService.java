@@ -1,13 +1,15 @@
 package com.lalit.customer;
 
 import com.lalit.amqp.RabbitMQMessageProducer;
-import com.lalit.client.fraud.FraudCheckResponse;
-import com.lalit.client.fraud.FraudClient;
+
+
+import com.lalit.clients.fraud.FraudCheckResponse;
+import com.lalit.clients.fraud.FraudClient;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import com.lalit.client.notification.NotificationClient;
-import com.lalit.client.notification.NotificationRequest;
+import com.lalit.clients.notification.NotificationClient;
+import com.lalit.clients.notification.NotificationRequest;
 @AllArgsConstructor
 @Service
 public class CustomerService {

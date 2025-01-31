@@ -1,6 +1,6 @@
 package com.lalit.notification;
 
-import com.lalit.client.notification.NotificationRequest;
+import com.lalit.clients.notification.NotificationRequest;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,7 @@
 package com.lalit.fraud;
 
-import com.lalit.client.fraud.FraudCheckResponse;
+
+import com.lalit.clients.fraud.FraudCheckResponse;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
